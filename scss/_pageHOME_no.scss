@@ -1,0 +1,26 @@
+ /*------------------------------------HOME--------------*/
+ #divMain {
+    display: flex;
+    flex-direction: column;
+    img {
+        margin-top: 2%;
+      }    
+  }
+  
+    
+  .project {
+    background-color: #494949;
+  }
+  
+  .borde {
+    border: solid;
+    border-color: #757373;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  .featured-text {
+    font-size: 2rem;
+  }

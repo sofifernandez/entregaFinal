@@ -1,0 +1,14 @@
+/*---------------------------CATÁLOGO---------------------------- */
+  
+.card {
+    border-color: white;
+}
+  
+.card-img-top:hover {
+   transform: scale(1.1,1.1);
+   transition: 0.25s;
+}
+
+#cartel {
+  border: 4px solid black;
+}

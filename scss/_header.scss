@@ -1,0 +1,94 @@
+/*-----------HEADERs-------------------------------*/
+
+header { /*Esto lo hice con box-modelling y flexbox cuando no sabía la magía de Bootstrap y los mx- my- px- py- :)*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 4%; 
+  div {
+    width: max-content;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 2%;
+  }
+}
+
+#headerHOME {
+  background-color: #E5E5E5;
+  margin-top: inherit;
+}
+
+#headerTienda{
+  background: linear-gradient(to bottom, #E9CCBC 10%, white 75%);
+  margin-top: inherit;
+}
+
+#headerComprar {
+  background: rgba(214, 164, 164, 0.5);
+  margin-top: inherit;
+}
+  
+ 
+#logo a img {  
+  max-width:400px;
+  max-height:400px;
+  width:auto;
+  height:auto;  
+}
+  
+/*------------Menú de pantallas medianas y grandes-----------------*/
+#menuPrincipal { /*Este horror con boxmodeling*/
+  text-align: center;
+  height: min-content;
+  align-self: center;
+  width: 100%;
+  ul {
+    list-style-type: none;
+    font-weight: 800;
+    font-size: 2rem;
+    width: 100%;
+    padding-left: 0;  
+    
+    li { 
+      display: inline-block;  
+      text-align: center;
+      width: 18%;
+      a {
+        padding-left: 10px;
+        padding-right: 10px;
+      } 
+
+      a:hover{ 
+        color: white;  
+        background-color: black;
+        transition: 300ms linear;
+      }
+    }
+  }
+}
+
+#estoyAca{
+  color: white;  
+  background-color: black;
+}
+  
+   
+/*---------Menú de pantallas chicas-------------*/
+  
+a.dropdown-item.seccion-activa {
+    color: #DCABAE; 
+}
+  
+.dropdown {
+  margin-bottom: 0; 
+}
+  
+.dropdown-menu.show {
+  background-color: #404040;
+  color: white; 
+}
+    
+.dropdown-item {
+  color: white; 
+}
